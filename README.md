@@ -1,3 +1,7 @@
+This was forked from: https://github.com/cvlab-epfl/LIFT
+on Nov 3, 2016. The rest of the README file below is part of the original README.
+
+
 # LIFT: Learned Invariant Feature Points
 
 This software is a Python implementation of the LIFT feature point presented in [1].
