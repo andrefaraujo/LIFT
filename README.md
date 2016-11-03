@@ -1,6 +1,9 @@
 This was forked from: https://github.com/cvlab-epfl/LIFT
 on Nov 3, 2016. The rest of the README file below is part of the original README.
 
+Tricks to make it work:
+
+* For the run.sh script to run, you need to create a ".locks" directory under the "python-code" directory
 
 # LIFT: Learned Invariant Feature Points
 
