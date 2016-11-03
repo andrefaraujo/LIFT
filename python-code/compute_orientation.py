@@ -73,7 +73,7 @@ if __name__ == '__main__':
     # ------------------------------------------------------------------------
     # Setup and load parameters
     param = paramStruct()
-    param.loadParam(config_file, verbose=True)
+    param.loadParam(config_file, verbose=False)
     pathconf = pathConfig()
     pathconf.setupTrain(param, 0)
 

@@ -88,7 +88,7 @@ if __name__ == '__main__':
     # ------------------------------------------------------------------------
     # Setup and load parameters
     param = paramStruct()
-    param.loadParam(config_file, verbose=True)
+    param.loadParam(config_file, verbose=False)
     pathconf = pathConfig()
 
     # Initialize pathconf structure
@@ -228,7 +228,7 @@ if __name__ == '__main__':
                 image, pathconf.result,
                 param.model.bNormalizeInput,
                 sKpNonlinearity,
-                verbose=True)
+                verbose=False)
             end_time = time.clock()
             compute_time = (end_time - start_time) * 1000.0
             print('Time taken using opencv for image size {} is {}'
